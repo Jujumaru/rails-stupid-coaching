@@ -1,4 +1,4 @@
 Rails.application.routes.draw do
-  get 'answers/answer'
+  get 'answer', to: 'questions#answer'
   get 'ask', to: 'questions#ask'
 end
